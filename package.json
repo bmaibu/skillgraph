@@ -1,0 +1,19 @@
+{
+  "name": "wexa-skillgraph-assignment",
+  "version": "1.0.0",
+  "description": "SkillGraph — Graph-Powered Career & Skill Explorer backed by CognoDB",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "node scripts/seed.js",
+    "build": "npm run build --prefix client"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "neo4j-driver": "^5.23.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

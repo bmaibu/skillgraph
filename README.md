@@ -38,7 +38,6 @@ The application demonstrates how graph databases naturally model and traverse co
 - [Security & Parameterized Cypher](#security--parameterized-cypher)
 - [Screenshots](#screenshots)
 - [Live Demo](#live-demo)
-- [Demo Video](#demo-video)
 - [Future Improvements](#future-improvements)
 
 ---
@@ -500,6 +499,14 @@ All backend services (`developerService`, `jobService`, `skillService`, `company
 ### 7. Candidate Selector Dropdown
 ![Candidate Selector Dropdown](docs/screenshots/graph_explorer_dropdown.png)
 *Candidate dropdown selector in Graph Explorer enabling real-time neighborhood graph visualization.*
+
+---
+
+## Live Demo
+
+- **Frontend Web Application**: [https://skillgraph-frontend-mg6z.onrender.com/](https://skillgraph-frontend-mg6z.onrender.com/)
+- **Backend API Service**: [https://skillgraph-2kib.onrender.com](https://skillgraph-2kib.onrender.com)
+- **Backend Health Check**: [https://skillgraph-2kib.onrender.com/api/health](https://skillgraph-2kib.onrender.com/api/health)
 
 ---
 
